@@ -1,4 +1,4 @@
-package dromard.picasaweb.album.downloader;
+package dromard.picasaweb.albumdownloader;
 
 /**
  * Hello world!

@@ -6,11 +6,11 @@
 		<homepage href="http://picasawebalbumdownloader.googlecode.com"/>
 		<description>Picasaweb Album Downloader</description>
 		<offline-allowed/>
+		<shortcut online="false">
+	      <desktop/>
+	      <menu/>
+	    </shortcut>
 	</information>
-	<shortcut>
-      <desktop/>
-      <menu/>
-    </shortcut>
 	<security>
 		<all-permissions/>
 	</security>

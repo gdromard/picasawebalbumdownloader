@@ -15,6 +15,16 @@
   <scm>
   	<url>https://picasawebalbumdownloader.googlecode.com/svn</url>
   </scm>
+  <repositories>
+    <repository>
+      <id>dromard</id>
+      <url>http://pingus.homelinux.net/Maven/repository</url>
+    </repository>
+    <repository>
+      <id>JBoss</id>
+      <url>http://repository.jboss.org/maven2</url>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

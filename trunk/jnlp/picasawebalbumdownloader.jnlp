@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<jnlp spec="1.0+" version="0.0.1" codebase="http://picasawebalbumdownloader.googlecode.com/svn/trunk/jnlp" href="picasawebalbumdownloader.jnlp">
+<jnlp spec="1.0+" version="0.0.2" codebase="http://picasawebalbumdownloader.googlecode.com/svn/trunk/jnlp" href="picasawebalbumdownloader.jnlp">
 	<information>
 		<title>Picasaweb Album Downloader</title>
 		<vendor>Gabriel DROMARD</vendor>
@@ -16,7 +16,7 @@
 	</security>
 	<resources>
 		<j2se version="1.5+" href="http://java.sun.com/products/autodl/j2se"/>
-		<jar href="picasawebalbumdownloader-0.0.1.jar"/>
+		<jar href="picasawebalbumdownloader-0.0.2.jar"/>
 	</resources>
 	<application-desc main-class="net.dromard.picasaweb.albumdownloader.PicasaWebAlbumDownloader"/>
 </jnlp>

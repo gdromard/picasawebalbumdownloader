@@ -84,6 +84,7 @@ public class PicasaWebAlbumDownloaderControler implements ActionListener, Runnab
 	
 	private void displayErrors(List<Exception> errors) {
 		JErrorsGlassPane glassPane = new JErrorsGlassPane();
+		glassPane.setControler(this);
 		glassPane.setSize(frame.getContentPane().getSize());
 		setGlassPane(glassPane);
 		String msg = "<html><b>"+Messages.getString("PicasaWebAlbumDownloaderControler.errors.title")+"</b><ul>";

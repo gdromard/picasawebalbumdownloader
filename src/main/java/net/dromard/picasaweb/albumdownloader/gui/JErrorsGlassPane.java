@@ -7,6 +7,7 @@ import java.awt.RenderingHints;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 
 import net.dromard.picasaweb.albumdownloader.controler.PicasaWebAlbumDownloaderControler;
 import net.dromard.picasaweb.albumdownloader.resources.Messages;
@@ -23,8 +24,10 @@ public class JErrorsGlassPane extends JPanel {
 		this.hints.put(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 		this.hints.put(RenderingHints.KEY_FRACTIONALMETRICS, RenderingHints.VALUE_FRACTIONALMETRICS_ON);
 		
+		JScrollPane scrollpane = new JScrollPane();
 		label = new JLabel();
-		this.add(label, BorderLayout.CENTER);
+		scrollpane.getViewport().add(label);
+		this.add(scrollpane, BorderLayout.CENTER);
 
 		JPanel btns = new JPanel(new FlowLayout(FlowLayout.RIGHT));
 		okBtn = new JButton(Messages.getString("JErrorsGlassPane.okBtn.text"));

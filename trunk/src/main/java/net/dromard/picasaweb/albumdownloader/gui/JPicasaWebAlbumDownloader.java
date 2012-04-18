@@ -44,8 +44,10 @@ public class JPicasaWebAlbumDownloader extends JFrame {
 		((JPanel) getContentPane()).setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 		
 		// GUI
+		JPanel p = new JPanel(new BorderLayout());
+		p.add(textField, BorderLayout.NORTH);
 		getContentPane().add(label, BorderLayout.NORTH);
-		getContentPane().add(textField, BorderLayout.CENTER);
+		getContentPane().add(p, BorderLayout.CENTER);
 		btnPanel.add(btnDownload);
 		getContentPane().add(btnPanel, BorderLayout.SOUTH);
 		pack();

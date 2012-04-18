@@ -21,6 +21,7 @@ import net.dromard.picasaweb.albumdownloader.resources.Messages;
 public class JPicasaWebAlbumDownloader extends JFrame {
 	private static final long serialVersionUID = -7822874756818008107L;
 	public static final String DOWNLOAD_ACTION = Messages.getString("JPicasaWebAlbumDownloader.actions.download");
+	public static final String HIDE_GLASSPANE = Messages.getString("JPicasaWebAlbumDownloader.actions.hideGlassPane");
 	private JTextField textField;
 	private JButton btnDownload;
 

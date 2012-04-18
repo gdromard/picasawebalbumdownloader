@@ -37,7 +37,7 @@ public class JProgressBarGlassPane extends JPanel {
 		label.setText(string);
 	}
 
-	public String setString() {
+	public String getString() {
 		return this.label.getText();
 	}
 }

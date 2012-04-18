@@ -12,7 +12,6 @@ public class PicasaWebAlbumDownloader {
 		// http://picasaweb.google.fr/data/feed/base/user/laurentetsylvie75/albumid/5264008816855671777?alt=rss&kind=photo&authkey=OJ0rnRRHaLA&hl=fr
 		JPicasaWebAlbumDownloader frame = new JPicasaWebAlbumDownloader();
 		PicasaWebAlbumDownloaderControler controler = new PicasaWebAlbumDownloaderControler();
-		frame.setControler(controler);
 		controler.setFrame(frame);
 		frame.setVisible(true);
 	}

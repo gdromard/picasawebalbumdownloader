@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<jnlp spec="1.0+" version="0.0.2" codebase="http://picasawebalbumdownloader.googlecode.com/svn/trunk/jnlp" href="picasawebalbumdownloader.jnlp">
+<jnlp spec="1.0+" version="0.0.2" codebase="https://raw.githubusercontent.com/gdromard/picasawebalbumdownloader/master/jnlp" href="picasawebalbumdownloader.jnlp">
 	<information>
 		<title>Picasaweb Album Downloader</title>
 		<vendor>Gabriel DROMARD</vendor>

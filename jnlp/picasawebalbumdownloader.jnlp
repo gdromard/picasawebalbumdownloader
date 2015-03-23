@@ -3,7 +3,7 @@
 	<information>
 		<title>Picasaweb Album Downloader</title>
 		<vendor>Gabriel DROMARD</vendor>
-		<homepage href="http://picasawebalbumdownloader.googlecode.com"/>
+		<homepage href="https://github.com/gdromard/picasawebalbumdownloader"/>
 		<description>Picasaweb Album Downloader</description>
 		<offline-allowed/>
 		<shortcut online="false">
